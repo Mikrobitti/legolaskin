@@ -13,7 +13,7 @@ Yksinkertaisin tapa ajaa ohjelma on SBT-käännöstyökalun avulla. Sen voit ott
 - Lataa tämän hakemiston sisältö ja mene komentorivillä projektin perushakemistoon.
 - Anna komento `sbt`. SBT lataa ohjelman kääntämiseen tarvittavat kirjastot.
 - Anna SBT:ssä komento `run [parametrit]` käynnistääksesi ohjelman.
-- SBT-komento `assembly` luo Java-yhteensopivan .jar-paketin, jonka voit suorittaa komentoriviltä komennolla `java -jar Legolaskin-assembly-1.0.jar [parametrit]`.
+- SBT-komennolla `assembly` voit luoda Java-yhteensopivan .jar-paketin, jonka voit suorittaa komentoriviltä komennolla `java -jar Legolaskin-assembly-1.0.jar [parametrit]`.
 
 Vaihtoehtoisesti voit käyttää IDE-ohjelmointiympäristöä, joka tukee Scalaa. Sellainen on esimerkiksi IntelliJ IDEA.
 
@@ -28,5 +28,5 @@ Legolaskimelle voi antaa parametreina seuraavat tiedot. Jos parametreja ei ole a
 5. kuinka monen palikan yhdistelmistä aloitetaan (oletus: 1) (Jos esimerkiksi tiedät tietokannassa olevan valmiina kolmen palikan yhdistelmät, voit säästää aikaa antamalla aloitusarvoksi 4, jolloin valmiina olevia yhdistelmiä ei lasketa uudelleen.)
 
 - Voit antaa komentoriviltä kaikki nämä parametrit tai vain osan niistä, jolloin puuttuville annetaan oletusarvo. 
-- Numeeriset parametrit 2–4 tulee antaa juuri tässä järjestyksessä (palikoiden määrä, korkeus, leveys, aloitus), eli jos esimerkiksi haluat määritellä palikan korkeuden ja leveyden, on sinun kerrottava ensin palikoiden määrä. 
+- Numeeriset parametrit 2–5 tulee antaa juuri tässä järjestyksessä (palikoiden määrä, korkeus, leveys, aloitus), eli jos esimerkiksi haluat määritellä palikan korkeuden ja leveyden, on sinun kerrottava ensin palikoiden määrä. 
 - Jos parametri ei ole numeerinen, se tulkitaan tiedostonimeksi.
